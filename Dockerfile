@@ -2,6 +2,9 @@ FROM node:22-alpine AS builder
 
 LABEL maintainer="Nightscout Contributors"
 
+# git is needed to install nightscout-connect from the LeFrenchGuy GitHub fork.
+RUN apk add --no-cache git
+
 WORKDIR /opt/app
 
 # Copy only the files needed to install dependencies and build the webpack bundle.
