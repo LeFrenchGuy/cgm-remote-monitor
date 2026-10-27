@@ -137,7 +137,7 @@
     "mongo-url-parser": "^1.0.2",
     "mongodb": "^5.9.2",
     "mongomock": "^0.1.2",
-    "nightscout-connect": "git+https://github.com/LeFrenchGuy/nightscout-connect.git#2b622a655824a7021da5d00476fa6008355a731a",
+    "nightscout-connect": "git+https://github.com/LeFrenchGuy/nightscout-connect.git#cfd77d0a493ee1d1ce111e1d5dcbf56a366d3d2e",
     "node-cache": "^4.2.1",
     "process": "^0.11.10",
     "proxy-addr": "^2.0.8",
